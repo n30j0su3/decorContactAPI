@@ -1,0 +1,37 @@
+{
+  "name": "api_end",
+  "version": "1.0.0",
+  "description": "Basic API on NodeJS + Express with SQL Connection",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "startn": "node api.js",
+    "eslint": "eslint ./",
+    "eslint-fix": "eslint ./ --fix",
+    "build": "webpack",
+    "prod": "node dist/api.bundle.js"
+  },
+  "keywords": [
+    "nodejs",
+    "api",
+    "express",
+    "sql",
+    "n30j0su3"
+  ],
+  "author": "N30j0su3",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.17.1",
+    "nodemailer": "^6.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
